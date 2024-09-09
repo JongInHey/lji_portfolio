@@ -10,6 +10,7 @@ export const GlobalStyled = createGlobalStyle`
         font-family: "Noto Sans KR", sans-serif;
         background-color: #dbdbdb;
         color: #222;
+        word-break: keep-all;
     }
     
     img {
