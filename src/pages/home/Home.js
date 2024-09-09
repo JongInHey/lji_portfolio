@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Container = styled.div`
   min-height: 100vh;
   margin: 0 auto;
-  padding: 25px;
+  padding: 20px 30px;
 `;
 
 const Box = styled.div`
@@ -16,7 +16,8 @@ const Box = styled.div`
 `;
 
 const Con = styled.div`
-  border: 1px solid #888;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   display: flex;
   justify-content: space-between;
@@ -32,19 +33,19 @@ const Con = styled.div`
 const Title = styled.h2`
   font-size: 22px;
   font-weight: 700;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   text-align: center;
 `;
 
 const Text = styled.div`
   max-width: 500px;
   font-size: 18px;
+  line-height: 28px;
   font-weight: 400;
-  flex-direction: column;
   margin-right: 10px;
 
-  h2 {
-    margin-bottom: 10px;
+  p {
+    margin-top: 10px;
   }
 
   a {
@@ -54,6 +55,11 @@ const Text = styled.div`
       color: blue;
     }
   }
+`;
+
+const Desc = styled.p`
+  white-space: pre-line;
+  margin-bottom: 50px;
 `;
 
 export const Home = () => {
@@ -67,6 +73,7 @@ export const Home = () => {
             </Link>
             <Text>
               <Title>{data.title}</Title>
+              <Desc>{data.desc}</Desc>
               <h2>
                 깃허브 주소 :{" "}
                 <Link to={data.git_url} target="_blank">

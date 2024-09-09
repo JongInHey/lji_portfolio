@@ -5,6 +5,7 @@ export const portfolioList = [
     alt: "영화 리뷰 앱 홈",
     git_url: "https://github.com/JongInHey/movie_review_app",
     site_url: "https://jonginhey.github.io/movie_review_app",
+    desc: "여러 영화 정보에 대한 내용들을 얻고자 하는 사용자들에게 보다 쉽게 정보를 찾고 내용들을 얻으며 편리하고 간단하게 볼 수 있습니다.",
   },
   {
     title: "Busan_do_it",
@@ -12,6 +13,7 @@ export const portfolioList = [
     alt: "부산 정보 알림 홈",
     git_url: "https://github.com/JongInHey/busan_do_it",
     site_url: "https://jonginhey.github.io/busan_do_it",
+    desc: "부산의 시장, 쇼핑, 축제, 명소 등 장소에 대한 정보를 한눈에 찾을 수 있습니다. 또한 대중교통 정보, 주소, 운영 시간 및 요금, 웹 사이트 등 편하게 보여주는 정보를 하나의 앱으로 찾아서 볼 수 있습니다.",
   },
   {
     title: "Busan_ggong_parking_Info",
@@ -19,6 +21,7 @@ export const portfolioList = [
     alt: "부산 공영주차장 정보 홈",
     git_url: "https://github.com/JongInHey/busan_ggong_parking_Info",
     site_url: "https://jonginhey.github.io/busan_ggong_parking_Info",
+    desc: "가격이 비싼 사설 또는 민영 주차장의 정보도 함께 보는 것보단 비교적 저렴한 공영 주차장만의 정보를 알 수 있다. \n 부산의 공영 주차장 정보들을 간편하게 정보를 제공.",
   },
   {
     title: "Dopa_check",
@@ -26,6 +29,7 @@ export const portfolioList = [
     alt: "도파민 테스트 홈",
     git_url: "https://github.com/JongInHey/dopa_check",
     site_url: "https://jonginhey.github.io/dopa_check",
+    desc: "간편하고 가벼운 앱으로 내가 도파민 중독인지 간단하게 자가진단 테스트 해볼 수 있습니다. 또한 내가 어떤 것에 도파민이 상승하는지에 대해서도 생각해 볼 수 있습니다.",
   },
   {
     title: "QuickPlay_note",
@@ -33,5 +37,6 @@ export const portfolioList = [
     alt: "나만의 작은 세상 홈",
     git_url: "https://github.com/JongInHey/quickplay_note",
     site_url: "https://jonginhey.github.io/quickplay_note",
+    desc: "미니게임과 메모를 즐길 수 있는 앱. \n 미니게임을 통한 유연한 두뇌 회전과 간단하고 쉬운 나만의 메모장으로 리스트 작성 가능.",
   },
 ];
