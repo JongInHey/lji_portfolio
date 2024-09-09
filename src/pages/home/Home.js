@@ -41,7 +41,6 @@ const Con = styled.div`
   img {
     height: 600px;
     border-radius: 10px;
-    object-fit: cover;
   }
 
   @media (max-width: 945px) {
@@ -51,6 +50,7 @@ const Con = styled.div`
 
     img {
       height: 400px;
+      object-fit: cover;
     }
   }
 
