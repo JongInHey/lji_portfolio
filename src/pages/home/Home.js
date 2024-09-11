@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { portfolioList } from "../../components/portfolioList";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
+import { useEffect } from "react";
 
 const Container = styled.div`
   min-height: 100vh;
@@ -113,11 +114,19 @@ const Desc = styled.p`
 `;
 
 export const Home = () => {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+    });
+  }, [pathname]);
   return (
     <Container>
       <Box>
-        {portfolioList.map((data) => (
-          <Con>
+        {portfolioList.map((data, index) => (
+          <Con key={index}>
             <Link to={data.site_url} target="_blank">
               <img src={data.img} alt={data.alt}></img>
             </Link>
