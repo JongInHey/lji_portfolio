@@ -34,11 +34,8 @@ const Con = styled.div`
   justify-content: space-between;
   align-items: center;
 
-  a {
-    width: 340px;
-  }
-
   img {
+    object-fit: cover;
     height: 600px;
     border-radius: 10px;
   }
@@ -50,7 +47,6 @@ const Con = styled.div`
 
     img {
       height: 400px;
-      object-fit: cover;
     }
   }
 
@@ -83,7 +79,7 @@ const Text = styled.div`
   font-size: 18px;
   line-height: 28px;
   font-weight: 600;
-  margin-right: 10px;
+  margin: 0 20px;
 
   p {
     margin-top: 10px;
@@ -101,6 +97,7 @@ const Text = styled.div`
   @media (max-width: 768px) {
     padding: 20px;
     max-width: 100%;
+    margin: 0;
 
     p {
       word-break: break-all;
