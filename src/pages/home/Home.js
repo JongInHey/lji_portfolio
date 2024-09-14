@@ -4,8 +4,9 @@ import { Link, useLocation } from "react-router-dom";
 import { useEffect } from "react";
 
 const Container = styled.div`
+  width: 100%;
   min-height: 100vh;
-  margin: 0 auto;
+  height: 100%;
   padding: 20px 30px;
   background-color: #f7f9fc;
 `;
@@ -72,6 +73,7 @@ const Title = styled.h2`
   font-weight: 700;
   margin-bottom: 20px;
   text-align: center;
+  word-break: break-all;
 `;
 
 const Text = styled.div`
