@@ -17,13 +17,25 @@ const Logo = styled.div`
 const Name = styled.div`
   font-size: 24px;
   font-weight: 500;
+  a {
+    color: #007bff;
+    font-weight: 500;
+  }
 `;
 
 export const Header = () => {
   return (
     <SHeader>
       <Logo>PORT FOLIO</Logo>
-      <Name>Lee JongIn</Name>
+      <Name>
+        <a
+          href="https://github.com/jonginhey"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          LEE JONGIN
+        </a>
+      </Name>
     </SHeader>
   );
 };
