@@ -113,6 +113,7 @@ const Desc = styled.p`
   margin-bottom: 50px;
   font-weight: 600;
   opacity: 0.8;
+  line-height: 24px;
 `;
 
 export const Home = () => {
