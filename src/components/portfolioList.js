@@ -33,7 +33,7 @@ export const portfolioList = [
   },
   {
     title: "QuickPlay_note",
-    img: process.env.PUBLIC_URL + "/img/quickPlay_home.jpg",
+    img: process.env.PUBLIC_URL + "/img/quickPN_Mockup.png",
     alt: "나만의 작은 세상 홈",
     git_url: "https://github.com/JongInHey/quickplay_note",
     site_url: "https://jonginhey.github.io/quickplay_note",
