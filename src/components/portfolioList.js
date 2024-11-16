@@ -1,7 +1,7 @@
 export const portfolioList = [
   {
     title: "Movie_review_app",
-    img: process.env.PUBLIC_URL + "/img/movie_home.png",
+    img: process.env.PUBLIC_URL + "/img/movie_mockups.png",
     alt: "영화 리뷰 앱 홈",
     git_url: "https://github.com/JongInHey/movie_review_app",
     site_url: "https://jonginhey.github.io/movie_review_app",
@@ -9,7 +9,7 @@ export const portfolioList = [
   },
   {
     title: "Busan_do_it",
-    img: process.env.PUBLIC_URL + "/img/place_home.png",
+    img: process.env.PUBLIC_URL + "/img/shop_Mockup.png",
     alt: "부산 정보 알림 홈",
     git_url: "https://github.com/JongInHey/busan_do_it",
     site_url: "https://jonginhey.github.io/busan_do_it",
@@ -17,7 +17,7 @@ export const portfolioList = [
   },
   {
     title: "Busan_ggong_parking_Info",
-    img: process.env.PUBLIC_URL + "/img/parking_home.jpg",
+    img: process.env.PUBLIC_URL + "/img/parking_Mockup.png",
     alt: "부산 공영주차장 정보 홈",
     git_url: "https://github.com/JongInHey/busan_ggong_parking_Info",
     site_url: "https://jonginhey.github.io/busan_ggong_parking_Info",
@@ -25,7 +25,7 @@ export const portfolioList = [
   },
   {
     title: "Dopa_check",
-    img: process.env.PUBLIC_URL + "/img/lightHome.jpg",
+    img: process.env.PUBLIC_URL + "/img/dopa_Mockup.png",
     alt: "도파민 테스트 홈",
     git_url: "https://github.com/JongInHey/dopa_check",
     site_url: "https://jonginhey.github.io/dopa_check",

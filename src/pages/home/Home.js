@@ -35,17 +35,19 @@ const Con = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 70px 0;
+
+  a {
+    width: 100%;
+  }
 
   img {
-    object-fit: cover;
-    height: 600px;
+    object-fit: contain;
     border-radius: 10px;
   }
 
-  @media (max-width: 945px) {
-    a {
-      width: 200px;
-    }
+  @media (max-width: 1440px) {
+    padding: 30px 0;
 
     img {
       height: 400px;
@@ -57,13 +59,10 @@ const Con = styled.div`
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-
-    a {
-      width: 100%;
-    }
+    padding: 0;
 
     img {
-      height: 350px;
+      height: 300px;
     }
   }
 `;
@@ -91,6 +90,7 @@ const Text = styled.div`
   a {
     color: #007bff;
     font-weight: 500;
+    word-break: break-all;
 
     &:hover {
       color: #0056b3;
@@ -110,7 +110,7 @@ const Text = styled.div`
 
 const Desc = styled.p`
   white-space: pre-line;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   font-weight: 600;
   opacity: 0.8;
   line-height: 24px;
